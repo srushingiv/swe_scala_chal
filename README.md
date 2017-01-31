@@ -33,21 +33,21 @@ are not null.
 
 which should return a List of Lists, representing all possible paths through the graph starting at 'node'. The List returned can be thought of as a List of paths, where each path is represented as an List of GNodes.
 
-   Example:
-   Assume the following graph:
+Example:
+Assume the following graph:
 
-   A
-     B
-       E
-       F
-     C
-       G
-       H
-       I
-     D
-       J
+    A
+      B
+        E
+        F
+      C
+        G
+        H
+        I
+      D
+        J
 
-   paths(A) = ( (A B E) (A B F) (A C G) (A C H) (A C I) (A D J) )
+paths(A) = ( (A B E) (A B F) (A C G) (A C H) (A C I) (A D J) )
  
 
 ## 3. Write a quick and dirty program
